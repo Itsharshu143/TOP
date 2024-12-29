@@ -96,12 +96,12 @@ User - {}"""
 
 🎁 ʀᴇǫᴜᴇꜱᴛ ᴍꜱɢ - <code>{}</code></b>"""  
     
-    IMDB_TEMPLATE_TXT = """<b>📻 ᴛɪᴛʟᴇ - <a href={url}>{title}</a>
-🎭 ɢᴇɴʀᴇs - {genres}
-🎖 ʀᴀᴛɪɴɢ - <a href={url}/ratings>{rating}</a> / 10 (ʙᴀsᴇᴅ ᴏɴ {votes} ᴜsᴇʀ ʀᴀᴛɪɴɢ.)
-📆 ʏᴇᴀʀ - {release_date}
-❗️ ʟᴀɴɢᴜᴀɢᴇ - {languages}</b>
-"""
+    IMDB_TEMPLATE_TXT = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}</b>
+
+<b> Size ⚙️: {file_size}
+○Jᴏɪɴ :<a href="https://t.me/+BhP3I9nI9K4zZTk9">Cʜᴀɴɴᴇʟ</a>
+○Mᴏᴠɪᴇ : :<a href="https://t.me/+BhP3I9nI9K4zZTk9">Gʀᴏᴜᴘ</a>
+</b>"""
 
     FILE_CAPTION = """<a href='https://t.me/+BhP3I9nI9K4zZTk9'><b>ɴᴀᴍᴇ : {file_name}</b></a>"""
 
