@@ -788,7 +788,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ],
         [
             InlineKeyboardButton('🎭 ʏᴏᴜʀ ᴘᴏɪɴᴛs ✨', callback_data=f'point'),
-            InlineKeyboardButton('💗 ꜱᴜʙꜱᴄʀɪʙᴇ ᴏɴ ʏᴏᴜᴛᴜʙᴇ 💗', url='http://www.youtube.com/@PGsCraftCorner')
+            InlineKeyboardButton('💗 ꜱᴜʙꜱᴄʀɪʙᴇ ᴏɴ ʏᴛ 💗', url='http://www.youtube.com/@PGsCraftCorner')
         ],
         [
             InlineKeyboardButton('❤️ ꜱᴇᴀʀᴄʜ ᴍᴏᴠɪᴇ ʜᴇʀᴇ ❤️', url='https://t.me/+BhP3I9nI9K4zZTk9')
