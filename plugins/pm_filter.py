@@ -819,7 +819,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "admincmd":
         #if user isnt admin then return
         if not query.from_user.id in ADMINS:
-            return await query.answer('𝐘𝐄 𝐓𝐄𝐑𝐄 𝐋𝐈𝐘𝐄 𝐍𝐀𝐇𝐈 𝐇𝐀𝐈𝐍 ❤️ !' , show_alert=True)
+            return await query.answer('This Feature Is Only For Admins !' , show_alert=True)
         buttons = [
             [InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='features')],
         ]
