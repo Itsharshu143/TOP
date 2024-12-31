@@ -757,7 +757,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         online = f"{STREAM_LINK if STREAM_LINK else URL}/watch/{AKS.id}?hash={get_hash(AKS)}"
         download = f"{STREAM_LINK if STREAM_LINK else URL}/{AKS.id}?hash={get_hash(AKS)}"
         btn= [[
-            InlineKeyboardButton("ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ", url=online),
+          #  InlineKeyboardButton("ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ", url=online),
             InlineKeyboardButton("ꜰᴀsᴛ ᴅᴏᴡɴʟᴏᴀᴅ", url=download)
         ],[
             InlineKeyboardButton('❌ ᴄʟᴏsᴇ ❌', callback_data='close_data')
@@ -787,8 +787,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🎁 ɢᴇᴛ ᴘʀᴇᴍɪᴜᴍ ғʀᴇᴇ 🎁', callback_data=f'free_premium#{query.from_user.id}')
         ],
         [
-            InlineKeyboardButton('🎭 ʏᴏᴜʀ ᴘᴏɪɴᴛs ✨', callback_data=f'point#{query.from_user.id}'),
-            InlineKeyboardButton('🫠 ᴀʙᴏᴜᴛ 🚩', callback_data=f'about')
+            InlineKeyboardButton('🎭 ʏᴏᴜʀ ᴘᴏɪɴᴛs ✨', callback_data=f'point'),
+            InlineKeyboardButton('💗 ꜱᴜʙꜱᴄʀɪʙᴇ ᴏɴ ʏᴏᴜᴛᴜʙᴇ 💗', url='http://www.youtube.com/@PGsCraftCorner')
         ],
         [
             InlineKeyboardButton('❤️ ꜱᴇᴀʀᴄʜ ᴍᴏᴠɪᴇ ʜᴇʀᴇ ❤️', url='https://t.me/+BhP3I9nI9K4zZTk9')
@@ -819,7 +819,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "admincmd":
         #if user isnt admin then return
         if not query.from_user.id in ADMINS:
-            return await query.answer('This Feature Is Only For Admins !' , show_alert=True)
+            return await query.answer('𝐘𝐄 𝐓𝐄𝐑𝐄 𝐋𝐈𝐘𝐄 𝐍𝐀𝐇𝐈 𝐇𝐀𝐈𝐍 ❤️ !' , show_alert=True)
         buttons = [
             [InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='features')],
         ]
