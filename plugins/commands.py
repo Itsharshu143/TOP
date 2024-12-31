@@ -149,7 +149,7 @@ async def start(client:Client, message):
                             ],
                             [
                             InlineKeyboardButton('🎭 ʏᴏᴜʀ ᴘᴏɪɴᴛs ✨', callback_data=f'point#{message.from_user.id}'),
-                            InlineKeyboardButton('🫠 ᴀʙᴏᴜᴛ 🚩', callback_data='about')
+                            InlineKeyboardButton('💗 ꜱᴜʙꜱᴄʀɪʙᴇ ᴏɴ ʏᴏᴜᴛᴜʙᴇ 💗', url='http://www.youtube.com/@PGsCraftCorner')
                             ],
                             [
                             InlineKeyboardButton('❤️ ꜱᴇᴀʀᴄʜ ᴍᴏᴠɪᴇ ʜᴇʀᴇ ❤️', url='https://t.me/+BhP3I9nI9K4zZTk9')
@@ -179,7 +179,7 @@ async def start(client:Client, message):
         ],
         [
             InlineKeyboardButton('🎭 ʏᴏᴜʀ ᴘᴏɪɴᴛs ✨', callback_data=f'point#{message.from_user.id}'),
-            InlineKeyboardButton('🫠 ᴀʙᴏᴜᴛ 🚩', callback_data='about')
+            InlineKeyboardButton('💗 ꜱᴜʙꜱᴄʀɪʙᴇ ᴏɴ ʏᴏᴜᴛᴜʙᴇ 💗', url='http://www.youtube.com/@PGsCraftCorner')
         ],
         [
             InlineKeyboardButton('❤️ ꜱᴇᴀʀᴄʜ ᴍᴏᴠɪᴇ ʜᴇʀᴇ ❤️', url='https://t.me/+BhP3I9nI9K4zZTk9')
@@ -234,7 +234,7 @@ async def start(client:Client, message):
         ],
         [
             InlineKeyboardButton('🎭 ʏᴏᴜʀ ᴘᴏɪɴᴛs ✨', callback_data=f'point#{message.from_user.id}'),
-            InlineKeyboardButton('🫠 ᴀʙᴏᴜᴛ 🚩', callback_data='about')
+            InlineKeyboardButton('💗 ꜱᴜʙꜱᴄʀɪʙᴇ ᴏɴ ʏᴏᴜᴛᴜʙᴇ 💗', url='http://www.youtube.com/@PGsCraftCorner')
         ],
         [
             InlineKeyboardButton('❤️ ꜱᴇᴀʀᴄʜ ᴍᴏᴠɪᴇ ʜᴇʀᴇ ❤️', url='https://t.me/+BhP3I9nI9K4zZTk9')
